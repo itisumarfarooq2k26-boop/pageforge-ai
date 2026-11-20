@@ -1,0 +1,15 @@
+{
+  "name": "pageforge-ai",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Open-source image-first content studio with Bring Your Own API Key (BYOK)",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check public/app.js && node --test"
+  }
+}
